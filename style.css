@@ -1,0 +1,35 @@
+/* CSS for Responsive Music Visualizer */
+
+/* Set the canvas to cover the entire viewport */
+#musicCanvas {
+    width: 100vw;
+    height: 100vh;
+    background-color: #282c35; /* Background color */
+    border: 2px solid #ffffff; /* Border styles */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Style the play button */
+  button {
+    background-color: #007bff; /* Button background color */
+    color: #ffffff; /* Button text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive layout adjustments for smaller screens */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    #musicCanvas {
+      height: 60vh;
+    }
+  }
+  
